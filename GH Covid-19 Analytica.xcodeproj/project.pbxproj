@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDA3167247005B600538F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA3166247005B600538F8F /* AppDelegate.swift */; };
+		DDDA3169247005B600538F8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA3168247005B600538F8F /* SceneDelegate.swift */; };
+		DDDA316C247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDDA316A247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodeld */; };
+		DDDA316E247005B600538F8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA316D247005B600538F8F /* ContentView.swift */; };
+		DDDA3170247005B800538F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDA316F247005B800538F8F /* Assets.xcassets */; };
+		DDDA3173247005B800538F8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDA3172247005B800538F8F /* Preview Assets.xcassets */; };
+		DDDA3176247005B800538F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDA3174247005B800538F8F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDDA3163247005B600538F8F /* GH Covid-19 Analytica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GH Covid-19 Analytica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDA3166247005B600538F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDDA3168247005B600538F8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDDA316B247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GH_Covid_19_Analytica.xcdatamodel; sourceTree = "<group>"; };
+		DDDA316D247005B600538F8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDDA316F247005B800538F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDA3172247005B800538F8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDDA3175247005B800538F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDDA3177247005B800538F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDA3160247005B600538F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDA315A247005B600538F8F = {
+			isa = PBXGroup;
+			children = (
+				DDDA3165247005B600538F8F /* GH Covid-19 Analytica */,
+				DDDA3164247005B600538F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDA3164247005B600538F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA3163247005B600538F8F /* GH Covid-19 Analytica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDA3165247005B600538F8F /* GH Covid-19 Analytica */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA3166247005B600538F8F /* AppDelegate.swift */,
+				DDDA3168247005B600538F8F /* SceneDelegate.swift */,
+				DDDA316D247005B600538F8F /* ContentView.swift */,
+				DDDA316F247005B800538F8F /* Assets.xcassets */,
+				DDDA3174247005B800538F8F /* LaunchScreen.storyboard */,
+				DDDA3177247005B800538F8F /* Info.plist */,
+				DDDA316A247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodeld */,
+				DDDA3171247005B800538F8F /* Preview Content */,
+			);
+			path = "GH Covid-19 Analytica";
+			sourceTree = "<group>";
+		};
+		DDDA3171247005B800538F8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA3172247005B800538F8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDA3162247005B600538F8F /* GH Covid-19 Analytica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDA317A247005B800538F8F /* Build configuration list for PBXNativeTarget "GH Covid-19 Analytica" */;
+			buildPhases = (
+				DDDA315F247005B600538F8F /* Sources */,
+				DDDA3160247005B600538F8F /* Frameworks */,
+				DDDA3161247005B600538F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GH Covid-19 Analytica";
+			productName = "GH Covid-19 Analytica";
+			productReference = DDDA3163247005B600538F8F /* GH Covid-19 Analytica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDA315B247005B600538F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Malori Morow";
+				TargetAttributes = {
+					DDDA3162247005B600538F8F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DDDA315E247005B600538F8F /* Build configuration list for PBXProject "GH Covid-19 Analytica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDA315A247005B600538F8F;
+			productRefGroup = DDDA3164247005B600538F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDA3162247005B600538F8F /* GH Covid-19 Analytica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDA3161247005B600538F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA3176247005B800538F8F /* LaunchScreen.storyboard in Resources */,
+				DDDA3173247005B800538F8F /* Preview Assets.xcassets in Resources */,
+				DDDA3170247005B800538F8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDA315F247005B600538F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA3167247005B600538F8F /* AppDelegate.swift in Sources */,
+				DDDA3169247005B600538F8F /* SceneDelegate.swift in Sources */,
+				DDDA316E247005B600538F8F /* ContentView.swift in Sources */,
+				DDDA316C247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDDA3174247005B800538F8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDA3175247005B800538F8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDA3178247005B800538F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDDA3179247005B800538F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDA317B247005B800538F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GH Covid-19 Analytica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GH Covid-19 Analytica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "malori-Morow.GH-Covid-19-Analytica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDA317C247005B800538F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GH Covid-19 Analytica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GH Covid-19 Analytica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "malori-Morow.GH-Covid-19-Analytica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDA315E247005B600538F8F /* Build configuration list for PBXProject "GH Covid-19 Analytica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDA3178247005B800538F8F /* Debug */,
+				DDDA3179247005B800538F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDA317A247005B800538F8F /* Build configuration list for PBXNativeTarget "GH Covid-19 Analytica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDA317B247005B800538F8F /* Debug */,
+				DDDA317C247005B800538F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDDA316A247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDDA316B247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodel */,
+			);
+			currentVersion = DDDA316B247005B600538F8F /* GH_Covid_19_Analytica.xcdatamodel */;
+			path = GH_Covid_19_Analytica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDDA315B247005B600538F8F /* Project object */;
+}
